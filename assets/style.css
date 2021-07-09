@@ -1,0 +1,140 @@
+/* Body */
+body {
+  background: #e3e5e8;
+  color: #ffffff;
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 14pt;
+}
+
+/* Hyperlinks */
+a {text-decoration: none;}
+a:link {color: #1772d0;}
+a:visited {color: #1772d0;}
+a:active {color: red;}
+a:hover {color: #f09228;}
+
+/* Homepage Style */
+.homepage {
+  width: 768pt;
+  min-height: 100pt;
+  margin: 15pt auto;
+  padding: 20pt 20pt;
+  border: 1pt hidden #000;
+  text-align: justify;
+  color: #000000;
+  background: #ffffff;
+}
+
+/* Header (Title and Logo) */
+.homepage .header {
+  min-height: 80pt;
+  margin-top: 30pt;
+}
+.homepage .header .logo {
+  width: 80pt;
+  margin-left: 20pt;
+  float: left;
+}
+.homepage .header .logo img {
+  width: 80pt;
+  object-fit: cover;
+}
+.homepage .header .title {
+  margin: 0 70pt 0 110pt;  /* top right bottom left */
+  padding-top: 7pt;
+  text-align: center;
+  font-size: 25pt;
+}
+.homepage .header .subtitle {
+  margin: 0 70pt 0 110pt;  /* top right bottom left */
+  padding-top: 5pt;
+  text-align: center;
+  font-size: 16pt;
+}
+
+.homepage .section {
+  text-align: left;
+  font-size: 24pt;
+  font-weight: bolder;
+  margin: 30pt 20pt 10pt 20pt;  /*top right bottom left*/
+}
+
+/* Projects */
+.homepage .project {
+  height: 130pt;
+  outline: thin dotted #666666;
+  margin: 10pt 20pt 10pt 20pt;  /*top right bottom left*/
+}
+.homepage .project .image {
+  height: 120pt;
+  width: 160pt;
+  float: left;
+}
+.homepage .project .image img {
+  height: 120pt;
+  width: 160pt;
+  margin: 5pt;
+  object-fit: cover;
+  border-radius: 6pt;
+  box-shadow: 1pt 1pt 2pt #888888;
+  -moz-box-shadow: 1pt 1pt 2pt #888888;
+  -webkit-box-shadow: 1pt 1pt 2pt #888888;
+}
+.homepage .project .info {
+  margin: 20pt 20pt 0 180pt;  /*top right bottom left*/
+  font-size: 15pt;
+  text-align: left;
+}
+
+/* Tutorials */
+.homepage .tutorial {
+  height: 130pt;
+  outline: thin dotted #666666;
+  margin: 10pt 20pt 10pt 20pt;  /*top right bottom left*/
+}
+.homepage .tutorial .image {
+  height: 120pt;
+  width: 160pt;
+  float: left;
+}
+.homepage .tutorial .image img {
+  height: 120pt;
+  width: 160pt;
+  margin: 5pt;
+  object-fit: cover;
+  border-radius: 6pt;
+  box-shadow: 1pt 1pt 2pt #888888;
+  -moz-box-shadow: 1pt 1pt 2pt #888888;
+  -webkit-box-shadow: 1pt 1pt 2pt #888888;
+}
+.homepage .tutorial .info {
+  margin: 10pt 20pt 0 180pt;  /*top right bottom left*/
+  font-size: 16pt;
+  text-align: left;
+}
+
+/* Avatars */
+.homepage .avatar {
+  margin: -10pt 20pt 120pt 0pt;  /*top right bottom left*/
+}
+.homepage .avatar table {
+  float: left;
+  width: auto;
+  height: auto;
+  margin: 10pt 0pt;
+  text-align: center;
+  font-size: 16pt;
+  border-collapse: separate;
+  border-spacing: 20pt 10pt;
+}
+.homepage .avatar img {
+  height: 100pt;
+  width: 100pt;
+  object-fit: cover;
+}
+
+/* Acknowledgment */
+.homepage .acknowledgement {
+  margin: 10pt 20pt 30pt 20pt;  /*top right bottom left*/
+}
